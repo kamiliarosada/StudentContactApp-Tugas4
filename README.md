@@ -25,8 +25,8 @@ notes <img width="576" height="1280" alt="WhatsApp Image 2026-05-05 at 13 53 48 
 notes tersimpan <img width="576" height="1280" alt="WhatsApp Image 2026-05-05 at 13 53 49 (1)" src="https://github.com/user-attachments/assets/178fa560-4b3b-4d25-93c8-7eb1954a3c8d" />
 ### Tugas Akhir
 tampilan beranda dengan pengguna crud <img width="576" height="1280" alt="WhatsApp Image 2026-05-05 at 13 53 49 (2)" src="https://github.com/user-attachments/assets/db243236-5dbb-436c-bf3c-7fa7e603b94d" />
-tambah mahasiswa dan simpan <img width="576" height="1280" alt="WhatsApp Image 2026-05-05 at 13 53 50 (3)" src="https://github.com/user-attachments/assets/706cca68-e338-4570-b29a-b3c3cafb83cf" />
-hapus mahasiswa <img width="576" height="1280" alt="WhatsApp Image 2026-05-05 at 13 53 50 (1)" src="https://github.com/user-attachments/assets/721862d3-bb8f-4c82-8a5e-e99f14daed86" />
+hapus mahasiswa <img width="576" height="1280" alt="WhatsApp Image 2026-05-05 at 13 53 50 (3)" src="https://github.com/user-attachments/assets/706cca68-e338-4570-b29a-b3c3cafb83cf" />
+tambah mahasiswa <img width="576" height="1280" alt="WhatsApp Image 2026-05-05 at 13 53 50 (1)" src="https://github.com/user-attachments/assets/721862d3-bb8f-4c82-8a5e-e99f14daed86" />
 pencarian <img width="576" height="1280" alt="WhatsApp Image 2026-05-05 at 13 53 51" src="https://github.com/user-attachments/assets/9f6a68a2-9628-4cc4-9300-e8bcbcfc7580" />
 
 
