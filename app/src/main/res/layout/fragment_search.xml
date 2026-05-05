@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="#F5F5F5">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Cari Mahasiswa"
+        android:textColor="#FFFFFF"
+        android:background="#5C6BC0"
+        android:textStyle="bold"
+        android:padding="14dp"
+        android:layout_marginBottom="16dp"/>
+
+    <EditText
+        android:id="@+id/etSearch"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Ketik nama atau NIM..."
+        android:padding="12dp"
+        android:background="#FFFFFF"
+        android:elevation="2dp"
+        android:layout_marginBottom="16dp"
+        android:drawableStart="@android:drawable/ic_menu_search"
+        android:drawablePadding="8dp"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rvSearchResults"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+</LinearLayout>

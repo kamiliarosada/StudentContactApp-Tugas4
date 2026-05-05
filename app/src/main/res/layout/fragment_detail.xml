@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="#F5F5F5">
+
+    <TextView
+        android:id="@+id/tvDetailTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Student Detail"
+        android:textColor="#FFFFFF"
+        android:background="#5C6BC0"
+        android:textStyle="bold"
+        android:padding="14dp"
+        android:layout_marginBottom="16dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="16dp">
+
+        <Button
+            android:id="@+id/btnEditStudent"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Edit Mahasiswa"
+            android:backgroundTint="#FF9800"
+            android:textColor="#FFFFFF"
+            android:layout_marginEnd="8dp"/>
+
+        <Button
+            android:id="@+id/btnDeleteStudent"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Hapus Mahasiswa"
+            android:backgroundTint="#F44336"
+            android:textColor="#FFFFFF"/>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tvStudentInfo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="12dp"
+        android:background="#FFFFFF"
+        android:elevation="2dp"
+        android:layout_marginBottom="16dp"
+        android:text="Loading info..."/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Notes:"
+        android:textStyle="bold"
+        android:layout_marginBottom="8dp"/>
+
+    <EditText
+        android:id="@+id/etNotes"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="top"
+        android:hint="Write your notes here..."
+        android:inputType="textMultiLine"
+        android:background="#FFFFFF"
+        android:padding="10dp"
+        android:elevation="2dp"
+        android:layout_marginBottom="16dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnSaveNote"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Simpan Catatan"
+            android:backgroundTint="#5C6BC0"
+            android:textColor="#FFFFFF"/>
+
+        <Button
+            android:id="@+id/btnLoadNote"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Muat Catatan"
+            android:backgroundTint="#5C6BC0"
+            android:textColor="#FFFFFF"
+            android:layout_marginStart="8dp"/>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tvStatus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Status: Ready"
+        android:textColor="#666666"
+        android:textSize="12sp"/>
+
+</LinearLayout>
